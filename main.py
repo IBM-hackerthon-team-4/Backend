@@ -37,9 +37,9 @@ def create_llm(api_key, api_url, project_id):
     )
     return llm
 
-api_key = "YGbzIUg6KpNsg7WPz3YpcrhFiqS5AElruCqpEmhPGkN9"
-api_url = "https://us-south.ml.cloud.ibm.com"
-project_id = "5c7be186-19b4-43b1-8606-82ea24e1e840"
+api_key = ""
+api_url = ""
+project_id = ""
 
 model = create_llm(api_key, api_url, project_id)
 
